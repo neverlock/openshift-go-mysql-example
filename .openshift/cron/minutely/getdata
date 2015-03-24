@@ -1,0 +1,2 @@
+#!/bin/bash
+/var/lib/openshift/55112e865e8199e038000114/app-root/repo/bin/goexample --getdata >> $OPENSHIFT_GO_LOG_DIR/cron.log 2>&1
